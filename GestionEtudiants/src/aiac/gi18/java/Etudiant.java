@@ -12,6 +12,13 @@ public class Etudiant
 		this.id=id;
 		this.nom=nom;
 	}
+	@override
+	public String toString()
+	{
+		return nom+ ":" +note;
+		
+	}
+	
 	
 	
 	
