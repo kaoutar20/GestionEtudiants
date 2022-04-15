@@ -37,6 +37,8 @@ public class Etudiant implements Comparable<Etudiant>
 		return -1;
 	}
 	
+	//liste
+	
 	
 	
 	
