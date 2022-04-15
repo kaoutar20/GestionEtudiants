@@ -6,10 +6,10 @@ public class Etudiant
 	private String nom;
 	private double  note;
 	
-	public Etudiant(String nom, double note)
-	{
-		note=10;
-	}
+	
+	
+	
+	
 	
 
 }
