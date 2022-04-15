@@ -12,6 +12,38 @@ public class Etudiant implements Comparable<Etudiant>
 		this.id=id;
 		this.nom=nom;
 	}
+	
+	public double getNote( )
+	{
+		return note;
+	}
+	
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getNom() {
+		return nom;
+	}
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public void setNote(double note) {
+		this.note = note;
+	}
+
+	public double changenote(double note)
+	{
+		return this.note=note;
+	}
+	
+	
 	@Override
 	public String toString()
 	{
