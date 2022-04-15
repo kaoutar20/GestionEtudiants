@@ -6,6 +6,12 @@ public class Etudiant
 	private String nom;
 	private double  note;
 	
+	public Etudiant(int id,String nom )
+	{
+		note=10;
+		this.id=id;
+		this.nom=nom;
+	}
 	
 	
 	
