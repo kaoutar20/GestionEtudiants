@@ -9,7 +9,7 @@ public class Etudiant
 	public Etudiant(int id,String nom )
 	{
 		note=10;
-		this.id=id;
+		this.id=d;
 		this.nom=nom;
 	}
 	@override
@@ -18,6 +18,16 @@ public class Etudiant
 		return nom+ ":" +note;
 		
 	}
+	
+	@override
+	public boolean equals(Object obj) 
+	 {
+		if(!(Object instanceof Etudiant )) return false;
+		return ((Etudiant)obj).id==this.id;
+		
+			 
+	 }
+	
 	
 	
 	
