@@ -4,11 +4,7 @@ import java.util.ArrayList;
 public class ListEtudiants extends ArrayList<Etudiant>
 {
 	
-	/**
-	 * 
-	 */
 	
-
 	@Override
 	public boolean add(Etudiant e)
 	{
@@ -19,8 +15,8 @@ public class ListEtudiants extends ArrayList<Etudiant>
 			
 			return false;
 		}
-		
 		return super.add(e) ;
+		
 		
 		
 	}

@@ -1,6 +1,7 @@
 package aiac.gi18.java;
 
-import java.util.Set;
+//import java.util.Set;
+import java.util.Collections;
 
 public class Main{
 	public static void main(String[] args)
@@ -9,34 +10,31 @@ public class Main{
 		Etudiant e2=new Etudiant(2,"driss");
 		Etudiant e3=new Etudiant(1,"youssef");
 		
+		
+		
 		e1.setNote(15);
 		e2.setNote(12);
 		e3.setNote(16);
 		
+		//mespoints
 		System.out.println(e1);
 		System.out.println(e2);
 		System.out.println(e3);
 		
-		/*ListEtudiants mesPoint = new ListEtudiants();
-		mesPoint.add(e1);
-		mesPoint.add(e2);
-		mesPoint.add(e3);
+		System.out.println(" ");
 		
-		System.out.println(mesPoint);*/
-		
-		
-		//System.out.println(mesPoint);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		ListEtudiants listEtudiants = new ListEtudiants();
+		listEtudiants.add(e1);
+		listEtudiants.add(e2);
+		listEtudiants.add(e3);
+	    System.out.println(listEtudiants);
+      
+      
+	    System.out.println("apres");
+        Collections.sort(listEtudiants);
+        System.out.println(listEtudiants);
+      
+
 	}
 	
 	

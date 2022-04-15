@@ -38,10 +38,7 @@ public class Etudiant implements Comparable<Etudiant>
 		this.note = note;
 	}
 
-	public double changenote(double note)
-	{
-		return this.note=note;
-	}
+	
 	
 	
 	@Override
